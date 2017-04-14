@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+  text-align: center; }
+
+h1 {
+  color: red; }
+
+.head-wrap, .body-wrap, .footer-wrap {
+  max-width: 900px;
+  margin: 10px auto;
+  display: block; }

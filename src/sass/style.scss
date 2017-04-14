@@ -1,0 +1,48 @@
+
+$pink: #fdd5d5;
+$pinkdark: #fd9d9d;
+
+body {
+  background-color: #F2ECDE;
+  text-align: center;
+}
+
+.head-wrap, .body-wrap, .footer-wrap {
+  display: block;
+}
+
+.footer-wrap, .head-wrap {
+  background-color: $pink;
+  padding: 10px;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 5px;
+  border: 1px solid silver;
+}
+
+.header {
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  color: darken($pinkdark, 10%);
+  &:hover {
+    color: darken($pinkdark, 20%);
+  }
+}
+
+.inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   li {
+      float: left;
+      margin-right: 2px;
+      padding: 5px;
+    }
+}

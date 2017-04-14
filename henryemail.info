@@ -1,0 +1,22 @@
+name = henryemail
+core = "6.x"
+project = "basic"
+engine = phptemplate
+
+regions[header] = header
+regions[content] = content
+regions[footer] = footer
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/henryemail.css
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+
+; Information added by drupal.org packaging script on 2012-04-11
+version = "6.x-2.13"
+core = "6.x"
+project = "basic"
+datestamp = "1334122541"

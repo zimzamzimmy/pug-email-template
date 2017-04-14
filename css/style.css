@@ -1,0 +1,35 @@
+body {
+  background-color: #F2ECDE;
+  text-align: center; }
+
+.head-wrap, .body-wrap, .footer-wrap {
+  display: block; }
+
+.footer-wrap, .head-wrap {
+  background-color: #fdd5d5;
+  padding: 10px; }
+
+.wrapper {
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 5px;
+  border: 1px solid silver; }
+
+.header {
+  font-size: 12px;
+  text-align: center; }
+
+a {
+  color: #fc6b6b; }
+  a:hover {
+    color: #fb3939; }
+
+.inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .inline li {
+    float: left;
+    margin-right: 2px;
+    padding: 5px; }
